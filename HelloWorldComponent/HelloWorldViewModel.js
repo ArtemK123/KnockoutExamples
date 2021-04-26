@@ -1,4 +1,4 @@
-define(["scripts/knockout.js"], function (ko) {
+define(["tools/knockout.js"], function (ko) {
   return function() {
     this.greeting = ko.observable("Hello");
     this.name = ko.observable("World");

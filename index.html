@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <title>Hello world</title>
-  <script src="require.js"></script>
+  <script src="tools/require.js"></script>
+  <script src="tools/require-config.js"></script>
 </head>
 <body>
   <hello-world></hello-world>
 </body>
 <script>
-  require(["scripts/knockout.js"], (ko) => {
+  require(["tools/knockout.js"], (ko) => {
     require(["HelloWorldComponent/HelloWorldComponentRegistration.js"], (HelloWorldComponentRegistration) => {
       ko.applyBindings();
     })
