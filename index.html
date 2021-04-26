@@ -10,8 +10,10 @@
 </body>
 <script>
   require(["tools/knockout.js"], (ko) => {
-    require(["HelloWorldComponent/HelloWorldComponentRegistration.js"], (HelloWorldComponentRegistration) => {
-      ko.applyBindings();
+    require([
+          "HelloWorldComponent/HelloWorldComponentRegistration.js",
+          "InputComponent/InputComponentRegistration.js"],
+        () => {ko.applyBindings();
     })
   });
 </script>
