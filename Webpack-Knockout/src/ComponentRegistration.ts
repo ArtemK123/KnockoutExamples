@@ -1,4 +1,4 @@
-import ko from 'knockout';
+import * as ko from 'knockout';
 
 import HelloWorldComponent from "./HelloWorldComponent/HelloWorldViewModel";
 import InputComponent from "./InputComponent/InputViewModel";

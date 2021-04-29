@@ -1,7 +1,7 @@
 import html from "./HelloWorld.html";
 import * as ko from "knockout";
 
-class HelloWorldViewModel {
+export class HelloWorldViewModel {
   public greeting: ko.Observable<string>;
   public name: ko.Observable<string>;
   public appHeading: ko.PureComputed<string>;
