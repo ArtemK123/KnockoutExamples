@@ -1,7 +1,10 @@
+import IInputViewModelParams from "./IInputViewModelParams";
 import html from "./Input.html";
 
 class InputViewModel {
-  constructor(params) {
+  public text: KnockoutObservable<string>;
+
+  constructor(params: IInputViewModelParams) {
     this.text = params.text;
   }
 }
