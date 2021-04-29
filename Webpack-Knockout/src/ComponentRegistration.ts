@@ -1,7 +1,7 @@
 import * as ko from 'knockout';
 
-import HelloWorldComponent from "./HelloWorldComponent/HelloWorldViewModel";
-import InputComponent from "./InputComponent/InputViewModel";
+import HelloWorldComponent from "./HelloWorldComponent/HelloWorldComponent";
+import InputComponent from "./InputComponent/InputComponent";
 
 class ComponentRegistration {
   registerBindings() {
