@@ -1,10 +1,10 @@
 # KnockoutExamples
 
-Here you can find a couple of examples of configuration for [KnockoutJS](https://knockoutjs.com/) based frontend application. They may be used as a template for your applications.
+Here you can find examples of configuration for [KnockoutJS](https://knockoutjs.com/) based web application. They may be used as a template for your applications.
 
 ### What is inside:
 
-1. Two configurations: RequireJS and Webpack+TypeScript
+1. Three configurations: RequireJS, Webpack+TypeScript, Webpack+TypeScript+Asp.Net Core
 2. Simple module hierarchy - index.html -> index.js -> HelloWorldComponent -> InputComponent
 3. Each module is represented by a separate folder with the following structure: 
     - html file for view
@@ -16,6 +16,7 @@ Here you can find a couple of examples of configuration for [KnockoutJS](https:/
 ### Prerequirements
 - [Node.js 10.13.0](https://nodejs.org/ru/blog/release/v10.13.0/) or higher
 - Any browser with ES6 support. (Check browsers [here](https://caniuse.com/?search=es6))
+- [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0) for an example with Asp.Net Core
 
 ### RequireJS configuration
 
@@ -29,7 +30,7 @@ How to run:
   - Run in a terminal ```node ./server.js```
   - Go to the website in a browser via url ```http://127.0.0.1:12211/```
 
-### Webpack+TypeScript configuration 
+### Webpack + TypeScript configuration 
 
 - [Webpack5](https://webpack.js.org/) is used for compiling and bundling the website.
 - [TypeScript](https://www.typescriptlang.org/) is used type-safety.
@@ -42,6 +43,12 @@ How to run:
   - Run the webpack build via ```npm run build```. Optionally, you can run webpack in the [watch mode](https://webpack.js.org/configuration/watch/) ```npm run watch```
   - Go to the dist folder and open the index.html file in a browser.
 
+### Asp.Net Core + Webpack + TypeScript configuration
+- [Asp.Net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0) is used a server.
+- The same server provides static files from Webpack build and a backend API
+- During each build both .Net and Webpack targets are executed.
+- There are examples of simple API calls. GET and POST requests are presented.
+
 ### Links
 - Knockout https://knockoutjs.com/
 - RequireJS https://requirejs.org/docs/start.html
@@ -50,6 +57,8 @@ How to run:
 - TypeScript https://www.typescriptlang.org/
 - Github repo, which I have used as an inspiration https://github.com/JonUK/webpack4-es6-knockout
 - Webpack guide, from which I have used a learning app as a template https://webpack.js.org/guides/typescript/
+- .Net 5 https://dotnet.microsoft.com/download/dotnet/5.0
+- Asp.Net Core https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0
 
 ### Post scriptum 
 
