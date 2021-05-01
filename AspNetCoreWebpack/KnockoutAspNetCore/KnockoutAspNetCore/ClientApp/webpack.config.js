@@ -26,11 +26,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Typescript integration',
+      title: 'Asp.Net Core and Knockout',
     }),
   ],
   output: {
-    filename: isDevelopment ? '[name].js' : '[name].[contenthash].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true
   },
