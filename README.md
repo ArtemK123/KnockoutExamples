@@ -1,6 +1,6 @@
 # KnockoutExamples
 
-Here you can find examples of configuration for [KnockoutJS](https://knockoutjs.com/) based web application. They may be used as a template for your applications.
+Here you can find examples of configuration for [KnockoutJS](https://knockoutjs.com/) based web applications. They may be used as a template for your applications.
 
 ### What is inside:
 
@@ -16,7 +16,7 @@ Here you can find examples of configuration for [KnockoutJS](https://knockoutjs.
 ### Prerequirements
 - [Node.js 10.13.0](https://nodejs.org/ru/blog/release/v10.13.0/) or higher
 - Any browser with ES6 support. (Check browsers [here](https://caniuse.com/?search=es6))
-- [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0) for an example with Asp.Net Core
+- [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0) for an example with the Asp.Net Core
 
 ### RequireJS configuration
 
@@ -33,7 +33,7 @@ How to run:
 ### Webpack + TypeScript configuration 
 
 - [Webpack5](https://webpack.js.org/) is used for compiling and bundling the website.
-- [TypeScript](https://www.typescriptlang.org/) is used type-safety.
+- [TypeScript](https://www.typescriptlang.org/) is used for type-safety.
 - [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/) is used for generating the index.html file on the fly. The entry file is index.ts, which injects the root-level component into the auto-generated index.html.
 - Webpack optimizations are used to create separate bundles for business-logic files, vendor libraries (node_modules), and runtime information (which may change after each webpack compilation)
 
@@ -44,8 +44,8 @@ How to run:
   - Go to the dist folder and open the index.html file in a browser.
 
 ### Asp.Net Core + Webpack + TypeScript configuration
-- [Asp.Net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0) is used a server.
-- The same server provides static files from Webpack build and a backend API
+- [Asp.Net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0) is used as a web server.
+- The same server provides static files from Webpack build and a backend API.
 - During each build both .Net and Webpack targets are executed.
 - There are examples of simple API calls. GET and POST requests are presented.
 
